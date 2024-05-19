@@ -3,6 +3,7 @@ package com.java.webmvc.confg;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 //指定此类为一个spring的配置类(相当于applicationContext.xml文件)
 @Configuration
